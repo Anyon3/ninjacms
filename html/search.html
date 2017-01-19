@@ -1,0 +1,77 @@
+<!-- Form search -->
+		<div id=hSearch class=hMain role=search>
+		<h5>Rechercher un post (200 résultats max)</h5>
+		<input id=searchSel type="text" placeholder="Rechercher par mots clés" /><br>
+		<select name="sub" id="sub">
+			<option value="all">Rechercher partout</option>
+			<option disabled="disabled">--------</option>
+				<optgroup label="La board">
+					<option value="3">Avis</option>
+				</optgroup>
+				<option disabled="disabled">--------</option>
+				<optgroup label="Le coin détente">
+					<option value="4">Café</option>
+				</optgroup>
+				<optgroup label="Informatique">
+					<option value="68">Programming / Coding</option>
+					<option value="57">Informatique / Générale</option>
+					<option value="29">Tutoriels</option>
+					<option value="59">Linux MacOs FreeBSD</option>
+					<option value="60">Gamer</option>
+				</optgroup>
+				<optgroup label="Films / Vidéo">
+					<option value="45">Films (exclues)</option>
+					<option value="5">Films (dvdrip)</option>
+					<option value="35">Films (Screener et TS)</option>
+					<option value="42">Films (Vo et VoSt)</option>
+					<option value="46">Full DvD / HD</option>
+					<option value="6">Séries télé</option>
+					<option value="81">Sourds et malentendants</option>
+					<option value="56">Docs, spectacles</option>
+					<option value="58">Dessin animés / Animes / Mangas</option>
+					<option value="85">Sport</option>
+				</optgroup>
+				<optgroup label="Appz">
+					<option value="8">Appz Windows</option>
+					<option value="36">Appz Linux/Mac/Freebsd</option>
+					<option value="44">Anti-Virus / Anti-spyware / Anti-trojan...</option>
+				</optgroup>
+				<optgroup label="Gamez">
+					<option value="16">Gamez PC</option>
+					<option value="38">GameZ Consoles</option>
+				</optgroup>
+				<optgroup label="Musique">
+					<option value="7">Album Musique</option>
+					<option value="40">Single Musique</option>
+					<option value="41">Clip / Concert</option>
+					<option value="51">Discographie</option>
+					<option value="41">Docs, spectacles</option>
+					<option value="66">H-Q</option>
+					<option value="79">Section M.A.O</option>
+				</optgroup>
+				<optgroup label="Divers warez">
+					<option value="20">Divers</option>
+					<option value="70">Android / Iphone / Windows Phone</option>
+					<option value="27">E-book</option>
+				</optgroup>
+		</select>
+		<form id="optctn">
+			<fieldset id="optSearch" data-filter="subject">
+				<legend>Rechercher par</legend>
+				<i class="fa fa-check-circle subject"> Titre du topic</i>
+				<i class="fa fa-circle poster"> Auteur du topic</i>
+			</fieldset>
+			<fieldset id="optBy" data-by="to_id">
+				<legend>Date</legend>
+				<i class="fa fa-square-o to_last_post_id"> Dernier message</i>
+				<i class="fa fa-check-square-o to_id"> Création du topic</i>
+			</fieldset>
+			<fieldset id="optSort" data-sort="desc">
+				<legend>Par ordre</legend>
+				<i class="fa fa-square-o asc"> Ancien au plus récent</i>
+				<i class="fa fa-check-square-o desc"> Récent au plus ancien</i>
+			</fieldset>
+		</form>
+		<i class="subSearch fa fa-search"> Rechercher</i>
+		</div>
+		<!-- End form search -->
