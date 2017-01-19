@@ -1,0 +1,18 @@
+#covote p {
+border:1px solid #325EA5;
+color:#337DCC;
+padding:8px;
+border-radius:3px;
+box-sizing: border-box;
+}
+#commentv {
+border:1px solid #325EA5;
+background-color:white;
+color:#325EA5;
+width:100%;
+margin:0 auto;
+height:120px;
+padding:4px;
+border-radius:3px;
+box-sizing: border-box;
+}

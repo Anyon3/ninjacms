@@ -1,0 +1,268 @@
+body {
+
+}
+header {
+background-color:#7BA575;
+color: white;
+}
+#subSearch {
+background-color:#DDFADA;
+color:black;
+}
+#subSearch:hover {
+background-color:white;
+}
+.adult {
+color: #D15CCD;
+}
+#footer {
+background-color:#7BA575;
+color: black;
+}
+.container-body {
+color:black;
+}
+.container-link:hover{
+background-color:#C2E1BF;
+}
+.container-body a {
+color:#3F27F4;
+}
+.resultdb i {
+color:black;
+}
+.title_sort {
+color:#366223;
+}
+.categories_sort{
+color:#4CAD18;;
+}
+.byWho  {
+
+}
+#nbrow {
+color:#706E91;
+}
+#endresult {
+background-color: #5bc0de;
+}
+#endresult:hover {
+background-color: #83D8EF;
+}
+#endresult i {
+margin-right: 20px;
+color: white;
+font-size: 25px;
+}
+#noresult{
+background-color:#FAF2CC;
+color:#907D61;
+}
+#noresult i {
+color:#907D61;
+}
+.loadBody {
+color:#337AB7;
+}
+.loadBody span {
+margin-left: 10px;
+}
+.loadGen {
+color:#AA803D;
+background-color:#F4EBC1;
+}
+.title_sort .porn {
+color:#EF2FDC;
+}
+.trigCont {
+background-color:#DDFADA;
+}
+.goTopic  {
+color:#971BD1;
+}
+.goTopic:hover {
+color:#C26DED;
+}
+.goTopic i {
+color:#971BD1;
+}
+.timestamp {
+color:#905E60;
+}
+.timestamp:hover {
+color:#C69192;
+}
+.timelast {
+color:#3C6020;
+}
+.timelast:hover {
+color:#74AF44;
+}
+.scheme .dark {
+color:black;
+}
+.seHome, .seSub {
+color:black;
+}
+.labelHome {
+background-color:#5A8B52;
+color:white;
+}
+.preview {
+color:#8E7614;
+}
+.righthome .pTime{
+color:black;
+}
+.leftHome, .leftSub {
+border-right:1px solid white;
+border-bottom:1px solid white;
+border-left:1px solid white;
+}
+.righthome, rightSub {
+border-bottom:1px solid white;
+}
+.midHome, midSub {
+border-right:1px solid white;
+border-bottom:1px solid white;
+}
+.leftSub .normalPost {
+color:#88AC84;
+}
+.leftSub .stickyPost {
+color:#1F6F82;
+}
+.leftSub:hover .stickyPost {
+color:#348CA1;
+}
+.leftSub:hover .normalPost {
+color:#416A3A;
+}
+.leftHome > i, .leftHome > span, .righthome > .last_post, .leftSub > span, .rightSub > .last_post {
+color:#5A8B52;
+}
+.leftHome:hover > span, .righthome > .last_post:hover, .leftSub > span:hover, .last_post:hover {
+color:#416A3A;
+}
+.leftSub .closePost {
+color:#BB4141;
+}
+.leftSub:hover .closePost {
+color:#FFAAAA;
+}
+.leftHome p, .leftSub p {
+color:black;
+font-weight:bold;
+}
+.righthome .last_post
+color:#5A8B52;
+}
+.righthome .last_post:hover
+color:#416A3A;
+}
+.rightSub .last_post {
+color:black;
+}
+.containerHome:nth-of-type(even) .leftHome, .containerHome:nth-of-type(even) .righthome, .containerSub:nth-of-type(even) .leftSub, .containerSub:nth-of-type(even) .rightSub {
+background-color:#CFDFCD;
+}
+.containerHome:nth-of-type(odd) .leftHome, .containerHome:nth-of-type(odd) .righthome, .containerSub:nth-of-type(odd) .leftSub, .containerSub:nth-of-type(odd) .rightSub {
+background-color:#B2C9AF;
+}
+.containerHome:nth-of-type(even) .midHome, .containerHome:nth-of-type(even) .midHome, .containerSub:nth-of-type(even) .midSub, .containerSub:nth-of-type(even) .midSub {
+background-color:#C1D6BE;
+}
+.containerHome:nth-of-type(odd) .midHome, .containerHome:nth-of-type(odd) .midHome, .containerSub:nth-of-type(odd) .midSub, .containerSub:nth-of-type(odd) .midSub {
+background-color:#A5C4A1;
+}
+.bUser {
+color:#9B3EB8;
+font-weight:bold;
+}
+.containerPreview {
+border:1px solid #d0d0d0;
+color:black;
+background-color:white;
+}
+#footer {
+color:white;
+}
+.navSub .nextSub:hover i, .navSub .prevSub:hover i, .navSub .backHome:hover i {
+color:#57B183;
+}
+.modalInfo .ui-button, .modalInfo .ui-state-default .ui-button {
+color:white;
+background-color:#5A8B52;
+border-color:#B2C9AF;
+}
+.modalInfo .ui-button:hover {
+background-color:#B2C9AF;
+color:white;
+border-color:#B2C9AF;
+}
+.modalInfo .ui-dialog-titlebar {
+border:0;
+background-color:#5A8B52;
+color:white;
+background-image: none;
+}
+/* Topic */
+.post {
+color:black;
+border:0;
+}
+.post .labelPost {
+background-color:#7BA575;
+border:0;
+}
+.post .postRight {
+background-color:#B2C9AF;
+}
+.post .labelPost h2 {
+color:white;
+}
+.post ul {
+background-color:#C1D6BE;
+}
+.verified, .verified i {
+color:#638E5C;
+}
+/* Quote bbcode*/
+.quote {
+background-color:#CFDFCD;
+}
+.quote p {
+}
+.quote span {
+width: 98%;
+}
+.quote p i {
+}
+/* Recursive Quote bbcode */
+.recursiveQ {
+width:98%;
+background-color:#CFDFCD;
+border:1px solid white;
+}
+/* Admin */
+.gid1, .gid1 i {
+color:red;
+}
+/* Moderator */
+.gid2, .gid2 i {
+color:#168b17;
+}
+/* VIP */
+.gid5, .gid5 i {
+color:#0000FF;
+}
+/* Cleaner */
+.gid6, .gid6 i {
+color:#339999;
+}
+/* SU */
+.gid7, .gid7 i {
+color:#ed7f10;
+}
+/* Graphiste */
+color:#990000;

@@ -1,0 +1,17 @@
+#report ul {
+list-style-type:none;
+}
+#report ul li {
+cursor:pointer;
+}
+#reportv {
+border:1px solid #325EA5;
+background-color:white;
+color:#325EA5;
+width:100%;
+margin:0 auto;
+height:120px;
+padding:4px;
+border-radius:3px;
+box-sizing: border-box;
+}
