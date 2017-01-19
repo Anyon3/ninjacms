@@ -1,0 +1,393 @@
+#loadGen {
+top:0;
+float:left;
+background-color:black;
+color:white;
+display:inline-block;
+position:fixed;
+}
+#admctn {
+max-width:1400px;
+width:100%;
+margin:0 auto;
+padding:0;
+}
+#admmenu {
+max-width:650px;
+list-style-type:none;
+margin:0 auto;
+font-size:17px;
+}
+.srcpts, .srcpdis, .srcjabber, .srcicq, .srcemail {
+cursor:pointer;
+}
+#admmenu li {
+display:inline-block;
+margin:5px 0 5px 0;
+cursor:pointer;
+padding:4px;
+border-radius:4px;
+color:white;
+background-color: #228ADF;
+}
+
+#admmenu li:hover {
+background-color:#489DE4;
+color:white;
+}
+
+#admback {
+display:block;
+max-width:1200px;
+width:100%;
+padding:5px;
+margin:25px auto;
+text-align:center;
+border:1px solid #228ADF;
+border-radius:6px;
+}
+.rpp {
+margin:19px 0 4px 0;
+}
+.byrpt {
+width:99%;
+list-style-type:none;
+border-radius:6px;
+padding:6px 0 6px 0;
+background-color:#BCBFF4;
+box-sizing: border-box;
+}
+.noporn {
+background-color:#BCBFF4;
+}
+.porn {
+background-color:pink;
+}
+.byrpt li .rptck {
+float:right;
+color:white;
+cursor:pointer;
+}
+.byrpt .titlerpt, .byrpt .titlerpt a {
+text-decoration:none;
+color:#5056AA;
+font-weight:bold;
+font-size:16px;
+text-align:left;
+}
+.byrpt .whorpt {
+display:table;
+font-size:14px;
+color:#8186D8;
+font-style:italic;
+font-weight:bold;
+float:right;
+}
+.byrpt .secrpt {
+display:table;
+font-size:14px;
+color:#8186D8;
+font-style:italic;
+font-weight:bold;
+}
+.byrpt .rearpt {
+text-align:left;
+color:#5056AA;
+}
+.byrpt .directrpt {
+display:inline-block;
+text-align:left;
+border:1px solid #5056AA;
+padding:4px;
+border-radius:4px;
+}
+.byrpt .directrpt:hover, .byrpt .directrpt:hover a {
+background-color:5056AA;
+color:white;
+}
+.byrpt .directrpt a {
+text-decoration:none;
+color:#5056AA;
+}
+.byrpt li {
+max-width:99%;
+word-wrap: break-word;
+margin:8px 0 8px 0;
+padding:5px;
+border-radius:2px;
+box-sizing: border-box;
+}
+
+.showlog {
+list-style-type:none;
+border-top:1px dashed #931A0D;
+}
+
+.showlog li {
+margin:8px 0 8px 0;
+}
+
+.showlog a {
+text-decoration:none;
+color:#068664;
+font-weight:bold;
+font-size:17px;
+}
+#srcsend {
+background-color:#04457B;
+color:white;
+cursor:pointer;
+padding:4px;
+max-width:300px;
+width:99%;
+margin:15px auto;
+display:block;
+}
+#srcsend:hover {
+background-color:#4E9BDB;
+}
+#srcusername {
+max-width:600px;
+width:90%;
+padding:5px 4px 5px 5px;
+border:1px solid #04457B;
+background-color:white;
+font-size:16px;
+font-weight:bold;
+color:#097AD8;
+}
+#displaysrcus, #srcusba, #srcvote, #srcgvote {
+margin:10px auto 9px;
+padding:0;
+list-style-type:none;
+}
+.bsu, .brm {
+text-align:left;
+list-style-type:none;
+display:table;
+padding:4px;
+margin:4px;
+border:4px;
+}
+ #srcvote  {
+list-style-type:none;
+}
+.neg {
+
+}
+.pos {
+}
+.ctnvo a {
+text-decoration:none;
+}
+.ctnvo {
+border:1px solid #8DAFC3;
+display:block;
+margin: 2px 0 2px 0;
+width:70%;
+}
+
+#displaysrcus li {
+color:#2D4471;
+padding:5px;
+margin:5px;
+text-align:left;
+display:block;
+}
+.admup {
+color:#5DAA77;
+cursor:pointer;
+}
+.admca {
+color:#D85B5B;
+cursor:pointer;
+}
+#admpw, #admwa, #admban {
+float:right;
+color:#1E1959;
+cursor:pointer;
+}
+#admban i, #admpw i, #admwa i {
+font-size:22px;
+}
+#admbdg, #admvt {
+font-size:21px;
+cursor:pointer;
+padding:0;
+margin:0;
+}
+#addbdg ul {
+margin:0 auto;
+}
+.bsu {
+cursor:pointer;
+}
+#batitle {
+border-top:1px dashed #834FA2;
+border-bottom:1px dashed #834FA2;
+color:834FA2;
+text-align:left;
+}
+#votitle, #gvotitle {
+border-top:1px dashed #834FA2;
+border-bottom:1px dashed #834FA2;
+color:834FA2;
+text-align:left;
+}
+.more {
+display:none;
+}
+.smore {
+font-size:20px;
+cursor:pointer;
+display:inline-block;
+padding:3px 6px 3px 6px;
+background-color:#373276;
+color:white;
+}
+/*
+Group 1 staff
+Group 2 special
+Group 5 default
+Group 11 cryptage
+*/
+/* Helper IT */
+.groupe-10 {
+background-color:#5C4D86;
+color:white;
+}
+.nickcolor-19, .nickcolor-19 i, .nickcolor-20, .nickcolor-20 i, .nickcolor-21, .nickcolor-21 i, .nickcolor-22, .nickcolor-22 i {
+color:#5C4D86;
+}
+/* Eyes, 9 */
+.groupe-9 {
+background-color:black;
+color:white;
+}
+.nickcolor-15, .nickcolor-15 i, .nickcolor-16, .nickcolor-16 i, .nickcolor-17, .nickcolor-17 i, .nickcolor-18, .nickcolor-18 i {
+color:black;
+}
+/* The rest area */
+.groupe-8 {
+background-color:#46893F;
+color:white;
+}
+.nickcolor-11, .nickcolor-11 i, .nickcolor-12, .nickcolor-12 i, .nickcolor-13, .nickcolor-13 i, .nickcolor-14, .nickcolor-14 i {
+color:#46893F;
+}
+/* Designer */
+.groupe-7 {
+background-color:#9C5B33;
+color:white;
+}
+.nickcolor-8, .nickcolor-8 i, .nickcolor-9, .nickcolor-9 i, .nickcolor-10, .nickcolor-10 i {
+color:#9C5B33;
+}
+/* Porn uploader */
+.groupe-6 {
+background-color:#E58098;
+color:white;
+}
+.nickcolor-23, .nickcolor-23 i, .nickcolor-24, .nickcolor-24 i, .nickcolor-25, .nickcolor-25 i {
+color:#E58098;
+}
+/* Uploader / MegaUp..., 5 */
+.groupe-5 {
+background-color:#E16A27;
+color:white;
+}
+.nickcolor-3, .nickcolor-3 i, .nickcolor-4, .nickcolor-4 i, .nickcolor-5, .nickcolor-5 i, .nickcolor-6, .nickcolor-6 i  {
+color:#E16A27;
+}
+.nickcolor-36 { /* Ban */
+text-decoration: line-through;
+color:black;
+}
+/* Default, 4 */
+.groupe-4 {
+background-color:#7299D6;
+color:white;
+}
+.nickcolor-28, .nickcolor-27 {
+color:black;
+}
+.nickcolor-28 i {
+color:#337AB7;
+}
+/* VIP and other not fit in any groups, 3 */
+.groupe-3 {
+background-color:#154CC4;
+color:white;
+}
+.nickcolor-2, .nickcolor-2 i, .nickcolor-38, .nickcolor-38 i {
+color:#154CC4;
+}
+/* Special, 2 https://forum.wawa-mania.ec/topic-2227451*/
+.groupe-2 {
+background-color:#C9A22C;
+color:white;
+}
+.nickcolor-26, .nickcolor-26 i, .nickcolor-30, .nickcolor-30 i, .nickcolor-7, .nickcolor-7 i {
+color:#C9A22C;
+}
+/* Staff, 1 */
+.groupe-1 {
+background-color:#D14B4B;
+color:white;
+}
+.nickcolor-1, .nickcolor-1 i, .nickcolor-29, .nickcolor-29 i, .nickcolor-31, .nickcolor-31 i {
+color:#D14B4B;
+}
+.resultDb #solidaire {
+max-width:90%;
+margin:0 auto;
+text-align:center;
+background-color:#EDE6E6;
+}
+#solidaire span {
+display:inline-block;
+}
+#srcgwa, .detailswa {
+font-size:13px;
+padding:0;
+margin:0;
+text-align:left;
+cursor:pointer;
+}
+.detailswa i {
+color:red;
+padding:0;
+margin:0;
+}
+#lnkpanth {
+padding:7px 4px 7px 4px;
+width:300px;
+border:1px solid #228ADF;
+}
+#sndlnk {
+display:inline-block;
+margin:0 1px 10px 1px;
+background-color:#228adf;
+color:white;
+cursor:pointer;
+padding:6px;
+border-radius:3px;
+}
+#status {
+border:1px solid #2A6603;
+border-radius:4px;
+max-width:50%;
+margin:0 auto 10px auto;
+}
+.cdel {
+background-color:#C30000;
+color:white;
+padding:4px;
+border-radius:6px;
+display:inline-block;
+cursor:pointer;
+}
+.cdel:hover {
+background-color:#D64646;
+}
+}
